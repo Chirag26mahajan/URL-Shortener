@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
@@ -8,11 +9,14 @@ const Navbar = () => {
         Linkly
         </div>
         <ul className='flex justify-center gap-4 items-centre'>
-            <li>Home</li>
-            <li>About</li>
-            <li>Shorten</li>
-            <li>Contact US</li>
-            
+           <Link href='/'><li>Home</li> </Link>
+           <Link href='/about'><li>About</li></Link>
+           <Link href='/generate'><li>Shorten</li></Link>
+           <Link href='/contact'><li>Contact US</li></Link>
+            <li className='flex gap-3'>
+                <Link href="/generate"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Try Now</button></Link>
+                <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Github</button></Link>
+            </li>
         </ul>
       </nav>
     </div>
