@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <main className="bg-purple-100">
       <section className="grid grid-cols-2 h-{50vh}">
-        <div className="flex flex-col gap-4 items-centre justify-center">
-          <p className= {`text-2xl font-bold`}>The best URL Shortener in the market</p>
-          <p className="px-56">We are the most straightforward URL Shortener in the world.Most of the url shorteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL Shortener
+        <div className="flex flex-col gap-4 items-center   justify-center">
+          <p className= {`text-3xl font-bold`}>The best URL Shortener in the market</p>
+          <p className="px-56 text-center">We are the most straightforward URL Shortener in the world.Most of the url shorteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL Shortener
           </p>
           <li className='flex gap-3'>
-                <Link href="/generate"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Try Now</button></Link>
-                <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold'>Github</button></Link>
+                <Link href="/generate"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Try Now</button></Link>
+                <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Github</button></Link>
             </li>
         </div>
         <div className="flex justify-start relative">
