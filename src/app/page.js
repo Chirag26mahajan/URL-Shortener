@@ -10,8 +10,8 @@ export default function Home() {
           <p className="px-56 text-center">We are the most straightforward URL Shortener in the world.Most of the url shorteners will track you or ask you to give your details for login. We understand your needs and hence we have created this URL Shortener
           </p>
           <li className='flex gap-3'>
-                <Link href="/generate"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Try Now</button></Link>
-                <Link href="/github"><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Github</button></Link>
+                <Link href='/shorten'><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Try Now</button></Link>
+                <Link href='/github'><button className='bg-purple-500 rounded-lg shadow-lg p-3 py-1 font-bold text-white'>Github</button></Link>
             </li>
         </div>
         <div className="flex justify-start relative">
